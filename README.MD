@@ -1,3 +1,11 @@
+# Specific to Nonstop implementation
+Designed for use with only one user, specific to Nonstop implementation.
+
+So we cache the api for use to not go past box rate limits.
+
+Improvement would be to implement caching for specific tokens and retrieve individually, but we only use one user so only need one token.
+
+
 # Box AppAuth SDK
 
 https://box-content.readme.io/v2.0/docs/app-auth
